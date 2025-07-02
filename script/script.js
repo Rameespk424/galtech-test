@@ -46,16 +46,21 @@ $('.best-carousel').owlCarousel({
   },
   navText: [
     `<span class="custom-arrow">
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-        <circle cx="12" cy="12" r="12" fill="rgb(255,80,0)"/>
-        <path d="M14 6l-6 6 6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" version="1.1">
+  <path d="M21 12H3m6-6l-6 6 6 6" 
+          stroke="#ff5000"
+        stroke-width="1" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+</svg>
     </span>`,
-    `<span class="custom-arrow">
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-        <circle cx="12" cy="12" r="12" fill="rgb(255,80,0)"/>
-        <path d="M10 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
+    `  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" version="1.1">
+  <path d="M3 12h18M15 6l6 6-6 6" 
+        stroke="#ff5000" 
+        stroke-width="1" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+</svg>
     </span>`
   ]
 });
